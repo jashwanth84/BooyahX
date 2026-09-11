@@ -1,0 +1,16 @@
+# Android/Gradle generated files
+.gradle/
+**/build/
+**/.gradle/
+local.properties
+
+# IDE files
+.idea/
+*.iml
+
+# APK/AAB build outputs
+*.apk
+*.aab
+
+# Generated/cached files
+*.bin

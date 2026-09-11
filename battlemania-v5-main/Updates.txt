@@ -1,0 +1,30 @@
+Welcome to explanation of update your package. 
+
+If you want to update your package then before start updating, Please keep below points in mind.
+
+1) Please take backup of your files and database first. And confirm you have successfully taken full backup. 
+2) Updates will works only if you have not done custom changes in files and database. If you have done custom changes then your changes will be replaced. 
+3) You always must have to update in row(v0 to v1, v1 to v2, v2 to v3).  
+	For ex : Currently you are using v0, then you must have to update to v1. You cannot update v2 or v3 directly from v0.
+
+Now follow below steps to update. 
+
+1) Update Files of Website & Admin panel : After extract your new package, Find upload folder and merge all files & folders of upload folder to your website's root folder except below 3 files
+	- upload/database.php
+	- upload/api/.env
+	- upload/application/config/config.php
+
+2) Update database : SO for database update, there is one folder called "updated_databases". Inside that there are updated SQL files version wise. That you have to import on your current database. 
+	For ex : 
+		If you are updating v0 to v1 then you have to import booyahx_update_v1.sql
+		If you are updating v0 to v2 then first you have to import booyahx_update_v1.sql then import booyahx_update_v2.sql
+		
+3) Update Mobile Application : For update mobile application, Just open new version source code in android studio and change required configuration as below. Then create new apk and upload from admin panel(https://demo.thebooyahx.com/admin2020/appsetting/). 
+    BooyahX Android Tutorial – https://youtu.be/nYk3r4wOBPs
+    BooyahX API Change & Build Apk Tutorial – https://youtu.be/xL3rK0YAQTc
+    One Signal App id Setup in Android Studio – https://youtu.be/_PGCFlHvpt8		
+		
+Still you have any questions then you can contact here support@thebooyahx.com
+
+Thank you.
+BooyahX Team.
